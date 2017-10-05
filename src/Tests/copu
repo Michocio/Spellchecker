@@ -1,0 +1,366 @@
+///Prosty test poprawnościowy zapisu drzewa
+static void save_simple(void** state){
+
+	wchar_t answer[]=L"a(b(c))";//Prawidłowy zapis
+	setlocale(LC_ALL, "pl_PL.UTF-8");
+	tree root;  alphabet alphabet;   alphabet.size=0;
+	trie_init(&root,NULL,'\0');
+	const wchar_t* test1   = L"abc";
+	assert_int_equal(trie_insert(test1,&root,&alphabet), 1);
+	
+	//FILE * stream=fopen("simple.txt","w");
+	toString(root,stdout);
+	/*fclose(stream);
+	FILE * pFile=fopen("simple.txt","r");
+	
+	int n = 0;
+	fseek(pFile, 0L, SEEK_END);
+	int size = ftell(pFile);//Dlugosc pliku
+	assert_int_equal(size, 7);
+	fclose(pFile);
+	 pFile=fopen("simple.txt","r");
+	wchar_t wc;
+	
+	//Sprawdź czy w pliku dobry zapis
+	for(int i=0;i<7;i++)
+	{
+		wc= fgetwc (pFile);
+		assert_true(wc==*(answer+i));
+	}
+	fclose(pFile);
+	//free(alphabet.items);
+	trie_clear(&root);*/
+}
+
+///Kolejny prosty test poprawnościowy zapisu drzewa
+static void save_simple2(void** state){
+
+	wchar_t answer[]=L"abc";//Prawidłowy zapis
+	setlocale(LC_ALL, "pl_PL.UTF-8");
+	tree root;  alphabet alphabet;   alphabet.size=0;
+	trie_init(&root,NULL,'\0');
+	const wchar_t* test1   = L"a";
+	const wchar_t* test2   = L"b";
+	const wchar_t* test3   = L"c";
+	assert_int_equal(trie_insert(test1,&root,&alphabet), 1);
+	assert_int_equal(trie_insert(test2,&root,&alphabet), 1);
+	assert_int_equal(trie_insert(test3,&root,&alphabet), 1);
+	FILE * stream=fopen("simple2.txt","w");
+	toString(root,stream);
+	fclose(stream);
+	FILE * pFile=fopen("simple2.txt","r");
+	
+	int n = 0;
+	fseek(pFile, 0L, SEEK_END);
+	int size = ftell(pFile);//Dlugosc pliku
+	assert_int_equal(size, 3);
+	fclose(pFile);
+	pFile=fopen("simple2.txt","r");
+	wchar_t wc;
+		//Sprawdź czy w pliku dobry zapis
+	for(int i=0;i<3;i++)
+	{
+		wc= fgetwc (pFile);
+		assert_true(wc==*(answer+i));
+	}
+	fclose(pFile);
+	trie_clear(&root);
+}
+///Bardziej skomplikowany test poprawnościowy zapisu drzewa
+static void save_complex(void** state){
+
+	wchar_t answer[]=L"ą;(b(ć;(d)))";//Prawidłowy zapis
+	setlocale(LC_ALL, "pl_PL.UTF-8");
+	tree root;  alphabet alphabet;   alphabet.size=0;
+	trie_init(&root,NULL,'\0');
+	const wchar_t* test1   = L"ą";
+	const wchar_t* test2   = L"ąbć";
+	const wchar_t* test3   = L"ąbćd";
+	assert_int_equal(trie_insert(test1,&root,&alphabet), 1);
+	assert_int_equal(trie_insert(test2,&root,&alphabet), 1);
+	assert_int_equal(trie_insert(test3,&root,&alphabet), 1);
+	FILE * stream=fopen("complex.txt","w");
+	toString(root,stream);
+	fclose(stream);
+	FILE * pFile=fopen("complex.txt","r");
+	
+	int n = 0;
+	fseek(pFile, 0L, SEEK_END);
+	int size = ftell(pFile);//Dlugosc pliku
+	assert_int_equal(size, 14);
+	fclose(pFile);
+	 pFile=fopen("complex.txt","r");
+	wchar_t wc;
+	//Sprawdź czy w pliku dobry zapis
+	for(int i=0;i<12;i++)
+	{
+		wc= fgetwc (pFile);
+		assert_true(wc==*(answer+i));
+	}
+	fclose(pFile);
+	//free(alphabet.items);
+	trie_clear(&root);
+}
+///Kolejny bardziej skomplikowany test poprawnościowy zapisu drzewa
+static void save_complex2(void** state){
+
+	wchar_t answer[]=L"ą(b)ć(d)ę;(f)";//Prawidłowy zapis
+	setlocale(LC_ALL, "pl_PL.UTF-8");
+	tree root;  alphabet alphabet;   alphabet.size=0;
+	trie_init(&root,NULL,'\0');
+	const wchar_t* test1   = L"ąb";
+	const wchar_t* test2   = L"ćd";
+	const wchar_t* test3   = L"ę";
+	const wchar_t* test4   = L"ęf";
+	assert_int_equal(trie_insert(test1,&root,&alphabet), 1);
+	assert_int_equal(trie_insert(test2,&root,&alphabet), 1);
+	assert_int_equal(trie_insert(test3,&root,&alphabet), 1);
+		assert_int_equal(trie_insert(test4,&root,&alphabet), 1);
+	FILE * stream=fopen("complex2.txt","w");
+	toString(root,stream);
+	fclose(stream);
+	FILE * pFile=fopen("complex2.txt","r");
+	
+	int n = 0;
+	fseek(pFile, 0L, SEEK_END);
+	int size = ftell(pFile);//Dlugosc pliku
+	assert_int_equal(size, 16);
+	fclose(pFile);
+	 pFile=fopen("complex2.txt","r");
+	wchar_t wc;
+	//Sprawdź czy w pliku dobry zapis
+	for(int i=0;i<13;i++)
+	{
+		wc= fgetwc (pFile);
+		assert_true(wc==*(answer+i));
+	}
+	fclose(pFile);
+	//free(alphabet.items);
+	trie_clear(&root);
+}
+
+///Trzeci bardziej skomplikowany test poprawnościowy zapisu drzewa
+static void save_complex3(void** state){
+
+	wchar_t answer[]=L"ą(b(ć;(def)))";//Prawidłowy zapis
+	setlocale(LC_ALL, "pl_PL.UTF-8");
+	tree root;  alphabet alphabet;   alphabet.size=0;
+	trie_init(&root,NULL,'\0');
+	const wchar_t* test1   = L"ąbć";
+	const wchar_t* test2   = L"ąbćd";
+	const wchar_t* test3   = L"ąbće";
+	const wchar_t* test4   = L"ąbćf";
+	assert_int_equal(trie_insert(test1,&root,&alphabet), 1);
+	assert_int_equal(trie_insert(test2,&root,&alphabet), 1);
+	assert_int_equal(trie_insert(test3,&root,&alphabet), 1);
+		assert_int_equal(trie_insert(test4,&root,&alphabet), 1);
+	FILE * stream=fopen("complex3.txt","w");
+	toString(root,stream);
+	fclose(stream);
+	FILE * pFile=fopen("complex3.txt","r");
+	
+	int n = 0;
+	fseek(pFile, 0L, SEEK_END);
+	int size = ftell(pFile);//Dlugosc pliku
+	assert_int_equal(size, 15);
+	fclose(pFile);
+	 pFile=fopen("complex3.txt","r");
+	wchar_t wc;
+	//Sprawdź czy w pliku dobry zapis
+	for(int i=0;i<13;i++)
+	{
+		wc= fgetwc (pFile);
+		assert_true(wc==*(answer+i));
+	}
+	fclose(pFile);
+	//free(alphabet.items);
+	trie_clear(&root);
+}
+///Zapis do pliku drzewa ze słoami z takimi samymi literami
+static void save_same(void** state){
+	
+	wchar_t answer[]=L"x;(x;(x(x;(x))))";//Prawidłowy zapis
+	setlocale(LC_ALL, "pl_PL.UTF-8");
+	tree root;  alphabet alphabet;   alphabet.size=0;
+	trie_init(&root,NULL,'\0');
+	const wchar_t* test1   = L"x";
+	const wchar_t* test2   = L"xx";
+	const wchar_t* test4   = L"xxxx";
+	const wchar_t* test5   = L"xxxxx";
+	assert_int_equal(trie_insert(test1,&root,&alphabet), 1);
+	assert_int_equal(trie_insert(test2,&root,&alphabet), 1);
+
+		assert_int_equal(trie_insert(test4,&root,&alphabet), 1);
+		assert_int_equal(trie_insert(test5,&root,&alphabet), 1);
+	FILE * stream=fopen("same.txt","w");
+	toString(root,stream);
+	fclose(stream);
+	FILE * pFile=fopen("same.txt","r");
+	
+	int n = 0;
+	fseek(pFile, 0L, SEEK_END);
+	int size = ftell(pFile);//Dlugosc pliku
+	assert_int_equal(size, 16);
+	fclose(pFile);
+	 pFile=fopen("same.txt","r");
+	wchar_t wc;
+	//Sprawdź czy w pliku dobry zapis
+	for(int i=0;i<16;i++)
+	{
+		wc= fgetwc (pFile);
+		assert_true(wc==*(answer+i));
+	}
+	fclose(pFile);
+	//free(alphabet.items);
+	trie_clear(&root);
+}
+
+/**@}*/
+
+
+/**@}*/
+/** @name Testy trie_load
+  @{
+ */
+ /*
+///Spróbuj załadować puste drzewo 
+static void load_empty(void** state){
+	setlocale(LC_ALL, "pl_PL.UTF-8");
+	tree root;  alphabet alphabet;   alphabet.size=0;
+	//trie_init(&root,NULL,'\0');
+	FILE * stream=fopen("empty.txt","r");
+	root=trie_load(stream,&alphabet);
+	//Ręcznie sprawdzam strukturę
+	assert_int_equal(trie_find(L"abc",root), -1);
+	assert_int_equal(alphabet.size, 0);
+	assert_int_equal(root->children->size, 0);
+	fclose(stream);
+	//free(alphabet.items);
+	trie_clear(&root);
+}
+
+///Załaduje niepuste drzewo
+static void load_simple(void** state){
+	setlocale(LC_ALL, "pl_PL.UTF-8");
+	tree root;  alphabet alphabet;   alphabet.size=0;
+	//trie_init(&root,NULL,'\0');
+	FILE * stream=fopen("simple.txt","r");
+	root=trie_load(stream,&alphabet);
+	
+	//Ręcznie sprawdzam strukturę
+	assert_int_equal(trie_find(L"abc",root), 1);
+	assert_int_equal(trie_find(L"x",root), -1);
+	assert_int_equal(alphabet.size, 3);
+	assert_int_equal(root->children->size, 1);
+	fclose(stream);	
+	//free(alphabet.items);
+	trie_clear(&root);
+}
+
+///Załaduje niepuste drzewo prosty test poprawnościowy
+static void load_simple2(void** state)
+{
+	setlocale(LC_ALL, "pl_PL.UTF-8");
+	tree root;  alphabet alphabet;   alphabet.size=0;
+//	trie_init(&root,NULL,'\0');
+	FILE * stream=fopen("simple2.txt","r");
+	root=trie_load(stream,&alphabet);
+	//Ręcznie sprawdzam strukturę
+	assert_int_equal(trie_find(L"a",root), 1);
+	assert_int_equal(trie_find(L"b",root), 1);
+	assert_int_equal(trie_find(L"c",root), 1);
+	assert_int_equal(trie_find(L"xxx",root), -1);
+	assert_int_equal(alphabet.size, 3);
+	assert_int_equal(root->children->size, 3);
+	fclose(stream);
+	//free(alphabet.items);
+	trie_clear(&root);
+	
+}
+
+///Załaduje drzewo - bardziej skomplikowana struktura
+static void load_complex(void** state)
+{
+	setlocale(LC_ALL, "pl_PL.UTF-8");
+	tree root;  alphabet alphabet;   alphabet.size=0;
+	//trie_init(&root,NULL,'\0');
+	FILE * stream=fopen("complex.txt","r");
+	root=trie_load(stream,&alphabet);
+	//Ręcznie sprawdzam strukturę
+	assert_int_equal(trie_find(L"ą",root), 1);
+	assert_int_equal(trie_find(L"ąbć",root), 1);
+	assert_int_equal(trie_find(L"ąbćd",root), 1);
+	assert_int_equal(trie_find(L"xxx",root), -1);
+	assert_int_equal(alphabet.size, 4);
+	assert_int_equal(root->children->size, 1);
+	fclose(stream);
+	//free(alphabet.items);
+	trie_clear(&root);
+	
+}
+
+///Załaduje drzewo - bardziej skomplikowana struktura dwa
+static void load_complex2(void** state)
+{
+		setlocale(LC_ALL, "pl_PL.UTF-8");
+	tree root;  alphabet alphabet;   alphabet.size=0;
+	//trie_init(&root,NULL,'\0');
+	FILE * stream=fopen("complex2.txt","r");
+	root=trie_load(stream,&alphabet);
+	//Ręcznie sprawdzam strukturę
+	assert_int_equal(trie_find(L"ąb",root), 1);
+	assert_int_equal(trie_find(L"ćd",root), 1);
+	assert_int_equal(trie_find(L"ę",root), 1);
+	assert_int_equal(trie_find(L"ęf",root), 1);
+	assert_int_equal(trie_find(L"d",root), -1);
+	assert_int_equal(alphabet.size, 6);
+	assert_int_equal(root->children->size, 3);
+	fclose(stream);
+	//free(alphabet.items);
+	trie_clear(&root);
+	
+}
+///Załaduje drzewo - bardziej skomplikowana struktura trzy
+static void load_complex3(void** state)
+{
+	setlocale(LC_ALL, "pl_PL.UTF-8");
+	tree root;  alphabet alphabet;   alphabet.size=0;
+	//trie_init(&root,NULL,'\0');
+	FILE * stream=fopen("complex3.txt","r");
+	root=trie_load(stream,&alphabet);
+	//Ręcznie sprawdzam strukturę
+	assert_int_equal(trie_find(L"ąbć",root), 1);
+	assert_int_equal(trie_find(L"ąbćd",root), 1);
+	assert_int_equal(trie_find(L"ąbće",root), 1);
+	assert_int_equal(trie_find(L"ąbćf",root), 1);
+	assert_int_equal(trie_find(L"ć",root), -1);
+	assert_int_equal(alphabet.size, 6);
+	assert_int_equal(root->children->size, 1);
+	fclose(stream);
+	//free(alphabet.items);
+	trie_clear(&root);
+	
+}
+
+///Załaduj drzewo skłądające się z kilku słów zbudowanych z tych samych liter
+static void load_same(void** state)
+{
+	setlocale(LC_ALL, "pl_PL.UTF-8");
+	tree root;  alphabet alphabet;   alphabet.size=0;
+	//trie_init(&root,NULL,'\0');
+	FILE * stream=fopen("same.txt","r");
+	root=trie_load(stream,&alphabet);
+
+	assert_int_equal(trie_find(L"xx",root), 1);
+	assert_int_equal(trie_find(L"x",root), 1);
+	assert_int_equal(trie_find(L"xxxxx",root), 1);
+	assert_int_equal(trie_find(L"xxx",root), -1);
+	assert_int_equal(trie_find(L"ć",root), -1);
+	assert_int_equal(alphabet.size, 1);
+	assert_int_equal(root->children->size, 1);
+	fclose(stream);
+	//if(alphabet.size!=0)
+		//free(alphabet.items);
+	trie_clear(&root);
+}
+/**@}*/

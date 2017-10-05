@@ -1,0 +1,12 @@
+/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/example/CMakeFiles/allocate_module_test.dir
+/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/example/CMakeFiles/assert_macro_test.dir
+/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/example/CMakeFiles/assert_module_test.dir
+/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/example/CMakeFiles/calculator_test.dir
+/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/src/CMakeFiles/cmocka_shared.dir
+/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/example/CMakeFiles/customer_database_test.dir
+/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/doc/CMakeFiles/doc.dir
+/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/doc/CMakeFiles/doxygen.dir
+/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/example/CMakeFiles/key_value_test.dir
+/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/example/CMakeFiles/product_database_test.dir
+/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/example/CMakeFiles/simple_test.dir
+/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/example/chef_wrap/CMakeFiles/waiter_test_wrap.dir

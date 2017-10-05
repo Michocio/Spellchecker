@@ -1,0 +1,216 @@
+/**
+@mainpage Dokumentacja Słownika IPP
+
+# Spell checker - część pierwsza
+
+Uwaga: aktualna treść zadania znajduje się w [Moodle'u](https://moodle.mimuw.edu.pl/mod/assignment/view.php?id=15217).
+
+Duże zadanie zaliczeniowe polega na napisaniu spell checkera. Pierwszą część zadania składa się z biblioteki spell checkera oraz dwóch programów: dict-editor i dict-check korzystających z biblioteki. Program `dict-editor` został już napisany. **Twoim zadaniem jest napisanie biblioteki oraz programu `dict-check`.** W kolejnych etapach zadania będziemy bazować na rozwiązaniach tego etapu.
+
+
+Biblioteka powinna pozwalać na
+
+  - dodawanie, usuwanie oraz wyszukiwanie słów w słowniku,
+  - zapisywanie/wczytywanie słownika na dysku,
+  - podpowiadanie słów podobnych.
+
+## Repozytorium
+
+Częściowa implementacja biblioteki znajduje się w repozytorium. Każdy posiada własne o adresie https://git.mimuw.edu.pl/spellcheck-login.git gdzie login to login ze students. To zadanie będzie się oddawać przez to repozytorium.
+
+## Wymagana funkcjonalność biblioteki
+
+Biblioteka powinna udostępniać funkcje:
+
+ - `insert(word)`
+    dodaje słowo word do słownika
+ - `delete(word)`
+    usuwa słowo word ze słownika
+ - `find(word)`
+    funkcja zwraca `true`, jeśli słowo word znajduje się w słowniku lub `false` w przeciwnym przypadku
+ - `save(filename)`
+    zapisuje słownik w pliku o nazwie filename
+ - `load(filename)`
+    wczytuje słownik z pliku o nazwie filename
+ - `hints(word)`
+    zwraca podpowiedzi ze słownika, czyli słowa podobne do słowa `word`
+
+Sygnatura wszystkich funkcji powinna być taka, jak w pliku dictionary.h.
+
+## Podpowiedzi
+
+W tej części zadania należy zaimplementować następujący algorytm generowania podpowiedzi ze słownika:
+
+Aby wygenerować podpowiedzi ze słownika dla słowa word stwórz wszystkie słowa powstałe w wyniku **co najwyżej jednej** z następujących modyfikacji zastosowanej do słowa word:
+
+   -  zamiana jednej z liter słowa na dowolną inną literę alfabetu,
+   - usunięcie jednej z liter słowa,
+   -  dodanie jednej litery do słowa (na początku, na końcu lub pomiędzy dwoma istniejącymi literami), 
+
+a następnie wybierz spośród nich te, które znajdują się w słowniku.
+## Program dict-editor
+
+Program `dict-editor`, daje możliwość przetestowania biblioteki. Program wczytuje ze standardowego wejścia i wykonuje polecenia, które pojawiają się w kolejnych liniach. Po każdym poprawnym poleceniu program wypisuje na standardowe wyjście odpowiedni jednowierszowy komunikat. W przypadku niepoprawnego polecenia, program ignoruje je i wypisuje na standardowe wyjście wiersz
+
+    ignored
+
+Poprawne polecenie jest jednej z następujących postaci:
+
+  - `insert word`
+  
+    wstawia słowo `word` do słownika i wypisuje komunikat `inserted: word`  lub `ignored` jeśli słowo już znajdowało się w słowniku
+  - `delete word`
+  
+    usuwa słowo `word` ze słownika i wypisuje komunikat `deleted: word` lub `ignored` jeśli słowa nie było w słowniku
+  - `find word`
+  
+    szuka słowa `word` w słownika i wypisuje komunikat `found: word` gdy znajdzie lub `not found: word` jeśli nie ma go w słowniku
+  - `save filename`
+  
+    zapisuje słownik w pliku o nazwie `filename` i wypisuje komunikat `dictionary saved in file filename`
+  - `load filename`
+  
+    wczytuje słownik z pliku o nazwie `filename` i wypisuje komunikat `dictionary loaded from file filename`
+  - `hints word`
+  
+    wypisuje wiersz zawierający wszystkie podpowiedzi ze słownika do słowa `word`. Słowa powinny być pooddzielane pojedynczymi spacjami i posortowane alfabetycznie
+  - `clear`
+  
+    usuwa wszystkie słowa ze słownika i wypisuje komunikat `cleared` 
+
+W każdym poprawnym poleceniu argument word jest słowem składającym się wyłącznie z małych lub wielkich liter alfabetu polskiego, natomiast `filename` jest słowem składającym się wyłącznie z małych liter alfabetu łacińskiego oraz ew. kropki. Poza tym, w każdym poleceniu dozwolone są dowolne białe znaki na początku linii, na końcu linii oraz pomiędzy nazwą polecenia, a argumentem. Wszelkie inne znaki w poleceniach są zabronione i w przypadku ich wystąpienia program `dict-editor` zignoruje takie polecenie i wypisze komunikat ignored.
+
+### Przykładowe uruchomienie programu `dict-editor`
+
+stdin | stdout
+------|-------
+insert Źdźbło | inserted: źdźbło
+insert  Ala   | inserted: ala 
+insert źdźbło | ignored
+insert dla    | inserted: dla
+find  Ala     | found: ala
+find  Ola     | not found: ola
+hints Ola     | ala dla
+hints dla     | ala dla
+delete ala    | deleted: ala
+delete ŹDŹBŁO | deleted: źdźbło
+	
+
+## Program dict-check
+
+Kolejną częścią Twojego zadania jest zaimplementowanie programu dict-check, który będzie sprawdzał pisownię w danym tekście. W przypadku wywołania
+
+     ./dict-check dict
+
+program powinien wczytać z pliku dict słownik, a następnie czytać tekst ze standardowego wejścia (aż do napotkania znaku końca pliku EOF) i przepisywać go na standardowe wyjście, dostawiając znak # przed każdym słowem, którego nie ma w słowniku. Ponadto, użytkownik powinien mieć opcję wywołania
+
+     ./dict-check -v dict
+
+i wówczas program powinien dodatkowo dla każdego słowa slowo,  które występuje na wejściu, a którego nie ma w słowniku, wypisać na standardowe wyjście diagnostyczne (stderr) linię postaci:
+
+      W,Z slowo: podpowiedz1 podpowiedz2 ...
+
+gdzie W i Z to odpowiednio numer wiersza i numer znaku w tym wierszu wystąpienia pierwszej litery słowa slowo na standardowym wejściu (zarówno wiersze, jak i znaki numerujemy od 1), natomiast podpowiedz1 podpowiedz2 ... to porozdzielane pojedynczymi spacjami wszystkie podpowiedzi ze słownika do słowa slowo. Podpowiedzi powinny być posortowane alfabetycznie.
+
+### Przykładowe uruchomienie programu dict-check
+
+      ./dict-check -v slownik.txt
+
+#### slownik.txt
+
+      litwa
+      ojczyzna
+      moja
+      ty
+      jesteś
+      ja
+      jaka
+      zdrowie
+      ile
+      cię
+      trzeba
+      te
+      tylko
+      dowie
+  
+#### stdin
+
+      Litwo, Ojczyzno moja! ty jesteś jak zdrowie.
+      Ile cię trzeba cenić, ten tylko się dowie,
+      Kto cię stracił.
+  
+#### stdout
+
+      #Litwo, #Ojczyzno moja! ty jesteś #jak zdrowie.
+      Ile cię trzeba #cenić, #ten tylko #się dowie,
+      #Kto cię #stracił.
+
+#### stderr
+
+      1,1 Litwo: litwa
+      1,8 Ojczyzno: ojczyzna
+      1,33 jak: ja jaka
+      2,16 cenić: 
+      2,23 ten: te
+      2,33 się: cię
+      3,1 Kto: 
+      3,9 stracił: 
+
+## Uwagi
+
+  - W tym zadaniu słowem jest dowolny spójny ciąg składający się wyłącznie z małych lub wielkich liter alfabetu polskiego. Inne ciągi znaków nie powinny się znajdować w słowniku.
+  - W słowniku powinny znajdować się wyłącznie małoliterowe wersje słów. W przypadku wywołania funkcji insert, delete, find lub hints, w argumencie funkcji powinny najpierw zostać zamienione wszystkie wielkie litery na małe (można do tego użyć bibliotecznej funkcji towlower()).
+  - Program dict-check powinien jedynie dopisywać w odpowiednich miejscach znak #. Poza tym wszystkie słowa oraz znaki występujące pomiędzy nimi powinien przepisywać z wejścia na wyjście w postaci niezmienionej (wielkość liter również powinna zostać niezmieniona).
+  - Przy wczytywaniu słownika program powinien wczytać z pliku wszystkie słowa (zamieniając ew. wielkie litery na małe) i zignorować wszystkie znakie znajdujące się pomiędzy nimi.
+
+## Implementacja
+
+W repozytorium, które pobierzesz będą znajdowały się następujące pliki:
+
+ - `dictionary/dictionary.h`
+ 
+   plik nagłówkowy z deklaracjami funkcji eksportowanych przez bibliotekę spell checkera
+ - `dict-editor/dict-editor.c`
+ 
+   plik z kodem źródłowym programu dict-editor 
+
+Powyższych plików nie wolno zmieniać. W Twoim rozwiązaniu powinny się dodatkowo znaleźć co najmniej pliki:
+
+  - `dictionary/dictionary.c`
+  
+    plik z implementacją biblioteki spell checkera 
+  - `dict-check/dict-check.c`
+  
+    plik z kodem źródłowym programu dict-check
+  - `CMakeLists.txt`
+  
+    Plik konfiguracyjny dla cmake.
+
+## CMake i Makefile
+
+W repozytorium są już przykładowe pliki konfiguracyjne. Należy je rozszerzyć tak, aby obsługiwały nowo dodany program i nowo dodane pliki.
+
+
+## Wymagania
+
+  Słownik należy zaimplementować z użyciem drzewa TRIE. W kolejnych etapach będą pojawiać się bardziej zaawansowane heurystyki podpowiedzi, wykorzystujące strukturę drzewa TRIE.
+  Należy samodzielnie zaprojektować reprezentację dyskową słownika. Jej rozmiar powinien być proporcjonalny do rozmiaru drzewa TRIE (a nie do sumy sługości wszystkich słów). Rozmiar tego pliku będzie podlegać ocenie.
+  Dzieci węzła w drzewie TRIE należy przechowywać w tablicy uporządkowanej według liter typu wchar_t (tak więc wstawianie nowego dziecka może działać w czasie liniowym od liczby dzieci, ale wyszukiwanie dziecka powinno działać w czasie logarytmicznym).
+  Twój program przed zakończeniem musi zwolnić całą zaalokowaną pamięć.
+
+## Punktacja
+
+Programy będą sprawdzane na dwóch typach testów:
+
+   -  Małe testy poprawnościowe, warte 10 punktów.
+   -  [Korpus SJP](http://sjp.pl/slownik/odmiany/), wart drugie 10 punktów. Z tego 5 punktów będzie przyznawane za odpowiednio mały rozmiar pliku z reprezentacją dyskową słownika, a drugie 5 punktów za czas działania spell-checkera na odpowiednio dużym pliku wejściowym.
+
+Poza tym:
+
+  - Za błędy związane z dokumentacją doxygen można stracić co najwyżej 5 punktów.
+  - Za błędy w kompilacji CMake można stracić co najwyżej 3 punkty.
+  - Za błędy stylu można stracić co najwyżej 3 punkty.
+
+Każdy student może zgłosić swoje rozwiązanie co najwyżej dwukrotnie. Za każde rozpoczęte 12 godzin opóźnienia przysługuje 1 punkt karny. W przypadku dwóch zgłoszeń, długość czasu opóźnienia zostaje zmniejszona o czas między pierwszym zgłoszeniem a przekazaniem wyniku sprawdzenia.
+
+*/

@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/src/cmocka-1.0.1/example/database.h
+
+/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/src/cmocka-1.0.1/example/product_database.c
+database.h
+-
+
+/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/src/cmocka-1.0.1/example/product_database_test.c
+stdarg.h
+-
+stddef.h
+-
+setjmp.h
+-
+cmocka.h
+-
+database.h
+-
+
+/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/src/cmocka-1.0.1/include/cmocka.h
+

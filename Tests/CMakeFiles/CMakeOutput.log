@@ -1,0 +1,814 @@
+The system is: Linux - 3.13.0-36-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec297538145/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec297538145.dir/build.make CMakeFiles/cmTryCompileExec297538145.dir/build
+make[1]: Wejście do katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec297538145.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec297538145.dir/testCCompiler.c.o   -c /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec297538145
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec297538145.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec297538145.dir/testCCompiler.c.o  -o cmTryCompileExec297538145 -rdynamic 
+make[1]: Opuszczenie katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3725340699/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3725340699.dir/build.make CMakeFiles/cmTryCompileExec3725340699.dir/build
+make[1]: Wejście do katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3725340699.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3725340699.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec3725340699
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3725340699.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec3725340699.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3725340699 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.2-19ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.2 (Ubuntu 4.8.2-19ubuntu1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3725340699' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3725340699 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec3725340699.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[1]: Opuszczenie katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec3725340699/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3725340699.dir/build.make CMakeFiles/cmTryCompileExec3725340699.dir/build]
+  ignore line: [make[1]: Wejście do katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec3725340699.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3725340699.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec3725340699]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3725340699.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec3725340699.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3725340699 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.2-19ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.2 (Ubuntu 4.8.2-19ubuntu1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3725340699' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3725340699 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec3725340699.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3725340699] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec3725340699.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Performing C SOURCE FILE Test WITH_FPIC succeded with the following output:
+Change Dir: /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2436450376/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2436450376.dir/build.make CMakeFiles/cmTryCompileExec2436450376.dir/build
+make[1]: Entering directory `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2436450376.dir/src.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -DWITH_FPIC   -fPIC -o CMakeFiles/cmTryCompileExec2436450376.dir/src.c.o   -c /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec2436450376
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2436450376.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -DWITH_FPIC    CMakeFiles/cmTryCompileExec2436450376.dir/src.c.o  -o cmTryCompileExec2436450376 -rdynamic 
+make[1]: Leaving directory `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_STACK_PROTECTOR succeded with the following output:
+Change Dir: /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1314429235/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1314429235.dir/build.make CMakeFiles/cmTryCompileExec1314429235.dir/build
+make[1]: Wejście do katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1314429235.dir/src.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -DWITH_STACK_PROTECTOR   -fstack-protector -o CMakeFiles/cmTryCompileExec1314429235.dir/src.c.o   -c /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/src.c
+/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/src.c:1:27: warning: unused parameter ‘argv’ [-Wunused-parameter]
+ int main(int argc, char **argv) { char buffer[256]; return buffer[argc]=0;}
+                           ^
+Linking C executable cmTryCompileExec1314429235
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1314429235.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -DWITH_STACK_PROTECTOR    CMakeFiles/cmTryCompileExec1314429235.dir/src.c.o  -o cmTryCompileExec1314429235 -rdynamic 
+make[1]: Opuszczenie katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(int argc, char **argv) { char buffer[256]; return buffer[argc]=0;}
+Performing C SOURCE FILE Test WITH_VISIBILITY_HIDDEN succeded with the following output:
+Change Dir: /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1795836118/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1795836118.dir/build.make CMakeFiles/cmTryCompileExec1795836118.dir/build
+make[1]: Entering directory `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1795836118.dir/src.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DWITH_VISIBILITY_HIDDEN   -fvisibility=hidden -o CMakeFiles/cmTryCompileExec1795836118.dir/src.c.o   -c /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1795836118
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1795836118.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DWITH_VISIBILITY_HIDDEN    CMakeFiles/cmTryCompileExec1795836118.dir/src.c.o  -o cmTryCompileExec1795836118 -rdynamic 
+make[1]: Leaving directory `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Determining if the include file assert.h exists passed with the following output:
+Change Dir: /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1612242269/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1612242269.dir/build.make CMakeFiles/cmTryCompileExec1612242269.dir/build
+make[1]: Wejście do katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1612242269.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTryCompileExec1612242269.dir/CheckIncludeFile.c.o   -c /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1612242269
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1612242269.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTryCompileExec1612242269.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1612242269 -rdynamic 
+make[1]: Opuszczenie katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3815829929/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3815829929.dir/build.make CMakeFiles/cmTryCompileExec3815829929.dir/build
+make[1]: Wejście do katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3815829929.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTryCompileExec3815829929.dir/CheckIncludeFile.c.o   -c /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3815829929
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3815829929.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTryCompileExec3815829929.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3815829929 -rdynamic 
+make[1]: Opuszczenie katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3731397365/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3731397365.dir/build.make CMakeFiles/cmTryCompileExec3731397365.dir/build
+make[1]: Wejście do katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3731397365.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTryCompileExec3731397365.dir/CheckIncludeFile.c.o   -c /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3731397365
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3731397365.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTryCompileExec3731397365.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3731397365 -rdynamic 
+make[1]: Opuszczenie katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4231518385/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4231518385.dir/build.make CMakeFiles/cmTryCompileExec4231518385.dir/build
+make[1]: Wejście do katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4231518385.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTryCompileExec4231518385.dir/CheckIncludeFile.c.o   -c /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec4231518385
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4231518385.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTryCompileExec4231518385.dir/CheckIncludeFile.c.o  -o cmTryCompileExec4231518385 -rdynamic 
+make[1]: Opuszczenie katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file setjmp.h exists passed with the following output:
+Change Dir: /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3115056833/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3115056833.dir/build.make CMakeFiles/cmTryCompileExec3115056833.dir/build
+make[1]: Wejście do katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3115056833.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTryCompileExec3115056833.dir/CheckIncludeFile.c.o   -c /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3115056833
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3115056833.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTryCompileExec3115056833.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3115056833 -rdynamic 
+make[1]: Opuszczenie katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2195503222/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2195503222.dir/build.make CMakeFiles/cmTryCompileExec2195503222.dir/build
+make[1]: Wejście do katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2195503222.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTryCompileExec2195503222.dir/CheckIncludeFile.c.o   -c /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2195503222
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2195503222.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTryCompileExec2195503222.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2195503222 -rdynamic 
+make[1]: Opuszczenie katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2742854783/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2742854783.dir/build.make CMakeFiles/cmTryCompileExec2742854783.dir/build
+make[1]: Wejście do katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2742854783.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTryCompileExec2742854783.dir/CheckIncludeFile.c.o   -c /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2742854783
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2742854783.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTryCompileExec2742854783.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2742854783 -rdynamic 
+make[1]: Opuszczenie katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2970499092/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2970499092.dir/build.make CMakeFiles/cmTryCompileExec2970499092.dir/build
+make[1]: Wejście do katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2970499092.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTryCompileExec2970499092.dir/CheckIncludeFile.c.o   -c /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2970499092
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2970499092.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTryCompileExec2970499092.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2970499092 -rdynamic 
+make[1]: Opuszczenie katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1321583226/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1321583226.dir/build.make CMakeFiles/cmTryCompileExec1321583226.dir/build
+make[1]: Wejście do katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1321583226.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTryCompileExec1321583226.dir/CheckIncludeFile.c.o   -c /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1321583226
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1321583226.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTryCompileExec1321583226.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1321583226 -rdynamic 
+make[1]: Opuszczenie katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdio.h exists passed with the following output:
+Change Dir: /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2687777062/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2687777062.dir/build.make CMakeFiles/cmTryCompileExec2687777062.dir/build
+make[1]: Wejście do katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2687777062.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTryCompileExec2687777062.dir/CheckIncludeFile.c.o   -c /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2687777062
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2687777062.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTryCompileExec2687777062.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2687777062 -rdynamic 
+make[1]: Opuszczenie katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2757566399/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2757566399.dir/build.make CMakeFiles/cmTryCompileExec2757566399.dir/build
+make[1]: Wejście do katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2757566399.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTryCompileExec2757566399.dir/CheckIncludeFile.c.o   -c /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2757566399
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2757566399.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTryCompileExec2757566399.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2757566399 -rdynamic 
+make[1]: Opuszczenie katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3181633293/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3181633293.dir/build.make CMakeFiles/cmTryCompileExec3181633293.dir/build
+make[1]: Wejście do katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3181633293.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTryCompileExec3181633293.dir/CheckIncludeFile.c.o   -c /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3181633293
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3181633293.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTryCompileExec3181633293.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3181633293 -rdynamic 
+make[1]: Opuszczenie katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2958607419/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2958607419.dir/build.make CMakeFiles/cmTryCompileExec2958607419.dir/build
+make[1]: Wejście do katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2958607419.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTryCompileExec2958607419.dir/CheckIncludeFile.c.o   -c /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2958607419
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2958607419.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTryCompileExec2958607419.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2958607419 -rdynamic 
+make[1]: Opuszczenie katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec377732285/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec377732285.dir/build.make CMakeFiles/cmTryCompileExec377732285.dir/build
+make[1]: Wejście do katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec377732285.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTryCompileExec377732285.dir/CheckIncludeFile.c.o   -c /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec377732285
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec377732285.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTryCompileExec377732285.dir/CheckIncludeFile.c.o  -o cmTryCompileExec377732285 -rdynamic 
+make[1]: Opuszczenie katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1213237022/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1213237022.dir/build.make CMakeFiles/cmTryCompileExec1213237022.dir/build
+make[1]: Wejście do katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1213237022.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTryCompileExec1213237022.dir/CheckIncludeFile.c.o   -c /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1213237022
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1213237022.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTryCompileExec1213237022.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1213237022 -rdynamic 
+make[1]: Opuszczenie katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file time.h exists passed with the following output:
+Change Dir: /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec555894381/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec555894381.dir/build.make CMakeFiles/cmTryCompileExec555894381.dir/build
+make[1]: Wejście do katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec555894381.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTryCompileExec555894381.dir/CheckIncludeFile.c.o   -c /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec555894381
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec555894381.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTryCompileExec555894381.dir/CheckIncludeFile.c.o  -o cmTryCompileExec555894381 -rdynamic 
+make[1]: Opuszczenie katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec585329924/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec585329924.dir/build.make CMakeFiles/cmTryCompileExec585329924.dir/build
+make[1]: Wejście do katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec585329924.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTryCompileExec585329924.dir/CheckIncludeFile.c.o   -c /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec585329924
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec585329924.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTryCompileExec585329924.dir/CheckIncludeFile.c.o  -o cmTryCompileExec585329924 -rdynamic 
+make[1]: Opuszczenie katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_STRUCT_TIMESPEC succeded with the following output:
+Change Dir: /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1659601870/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1659601870.dir/build.make CMakeFiles/cmTryCompileExec1659601870.dir/build
+make[1]: Wejście do katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1659601870.dir/src.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DHAVE_STRUCT_TIMESPEC   -o CMakeFiles/cmTryCompileExec1659601870.dir/src.c.o   -c /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/src.c
+/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/src.c:7:4: warning: statement with no effect [-Wunused-value]
+    tmp->tv_sec;
+    ^
+Linking C executable cmTryCompileExec1659601870
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1659601870.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DHAVE_STRUCT_TIMESPEC    CMakeFiles/cmTryCompileExec1659601870.dir/src.c.o  -o cmTryCompileExec1659601870 -rdynamic 
+make[1]: Opuszczenie katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <time.h>
+
+int main()
+{
+   struct timespec* tmp;
+   tmp->tv_sec;
+  return 0;
+}
+
+Determining if the function calloc exists passed with the following output:
+Change Dir: /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3292953430/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3292953430.dir/build.make CMakeFiles/cmTryCompileExec3292953430.dir/build
+make[1]: Wejście do katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3292953430.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=calloc   -o CMakeFiles/cmTryCompileExec3292953430.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘calloc’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec3292953430
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3292953430.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=calloc    CMakeFiles/cmTryCompileExec3292953430.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3292953430 -rdynamic 
+make[1]: Opuszczenie katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+
+
+Determining if the function exit exists passed with the following output:
+Change Dir: /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3374305465/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3374305465.dir/build.make CMakeFiles/cmTryCompileExec3374305465.dir/build
+make[1]: Wejście do katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3374305465.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=exit   -o CMakeFiles/cmTryCompileExec3374305465.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘exit’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec3374305465
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3374305465.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=exit    CMakeFiles/cmTryCompileExec3374305465.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3374305465 -rdynamic 
+make[1]: Opuszczenie katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fprintf exists passed with the following output:
+Change Dir: /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2831296646/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2831296646.dir/build.make CMakeFiles/cmTryCompileExec2831296646.dir/build
+make[1]: Wejście do katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2831296646.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=fprintf   -o CMakeFiles/cmTryCompileExec2831296646.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘fprintf’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec2831296646
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2831296646.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=fprintf    CMakeFiles/cmTryCompileExec2831296646.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2831296646 -rdynamic 
+make[1]: Opuszczenie katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+
+
+Determining if the function free exists passed with the following output:
+Change Dir: /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec650037100/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec650037100.dir/build.make CMakeFiles/cmTryCompileExec650037100.dir/build
+make[1]: Wejście do katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec650037100.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=free   -o CMakeFiles/cmTryCompileExec650037100.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘free’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec650037100
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec650037100.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=free    CMakeFiles/cmTryCompileExec650037100.dir/CheckFunctionExists.c.o  -o cmTryCompileExec650037100 -rdynamic 
+make[1]: Opuszczenie katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+
+
+Determining if the function longjmp exists passed with the following output:
+Change Dir: /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2584545091/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2584545091.dir/build.make CMakeFiles/cmTryCompileExec2584545091.dir/build
+make[1]: Wejście do katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2584545091.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=longjmp   -o CMakeFiles/cmTryCompileExec2584545091.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2584545091
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2584545091.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=longjmp    CMakeFiles/cmTryCompileExec2584545091.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2584545091 -rdynamic 
+make[1]: Opuszczenie katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+
+
+Determining if the function malloc exists passed with the following output:
+Change Dir: /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3630481089/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3630481089.dir/build.make CMakeFiles/cmTryCompileExec3630481089.dir/build
+make[1]: Wejście do katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3630481089.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=malloc   -o CMakeFiles/cmTryCompileExec3630481089.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘malloc’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec3630481089
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3630481089.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=malloc    CMakeFiles/cmTryCompileExec3630481089.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3630481089 -rdynamic 
+make[1]: Opuszczenie katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+
+
+Determining if the function memcpy exists passed with the following output:
+Change Dir: /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3185203356/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3185203356.dir/build.make CMakeFiles/cmTryCompileExec3185203356.dir/build
+make[1]: Wejście do katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3185203356.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=memcpy   -o CMakeFiles/cmTryCompileExec3185203356.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘memcpy’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec3185203356
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3185203356.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=memcpy    CMakeFiles/cmTryCompileExec3185203356.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3185203356 -rdynamic 
+make[1]: Opuszczenie katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+
+
+Determining if the function memset exists passed with the following output:
+Change Dir: /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2030258146/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2030258146.dir/build.make CMakeFiles/cmTryCompileExec2030258146.dir/build
+make[1]: Wejście do katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2030258146.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=memset   -o CMakeFiles/cmTryCompileExec2030258146.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘memset’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec2030258146
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2030258146.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=memset    CMakeFiles/cmTryCompileExec2030258146.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2030258146 -rdynamic 
+make[1]: Opuszczenie katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+
+
+Determining if the function printf exists passed with the following output:
+Change Dir: /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec613405333/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec613405333.dir/build.make CMakeFiles/cmTryCompileExec613405333.dir/build
+make[1]: Wejście do katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec613405333.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=printf   -o CMakeFiles/cmTryCompileExec613405333.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘printf’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec613405333
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec613405333.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=printf    CMakeFiles/cmTryCompileExec613405333.dir/CheckFunctionExists.c.o  -o cmTryCompileExec613405333 -rdynamic 
+make[1]: Opuszczenie katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+
+
+Determining if the function setjmp exists passed with the following output:
+Change Dir: /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2447885340/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2447885340.dir/build.make CMakeFiles/cmTryCompileExec2447885340.dir/build
+make[1]: Wejście do katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2447885340.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=setjmp   -o CMakeFiles/cmTryCompileExec2447885340.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2447885340
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2447885340.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=setjmp    CMakeFiles/cmTryCompileExec2447885340.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2447885340 -rdynamic 
+make[1]: Opuszczenie katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+
+
+Determining if the function signal exists passed with the following output:
+Change Dir: /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec820877874/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec820877874.dir/build.make CMakeFiles/cmTryCompileExec820877874.dir/build
+make[1]: Wejście do katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec820877874.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=signal   -o CMakeFiles/cmTryCompileExec820877874.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec820877874
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec820877874.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=signal    CMakeFiles/cmTryCompileExec820877874.dir/CheckFunctionExists.c.o  -o cmTryCompileExec820877874 -rdynamic 
+make[1]: Opuszczenie katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strsignal exists passed with the following output:
+Change Dir: /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3700523606/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3700523606.dir/build.make CMakeFiles/cmTryCompileExec3700523606.dir/build
+make[1]: Wejście do katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3700523606.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=strsignal   -o CMakeFiles/cmTryCompileExec3700523606.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3700523606
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3700523606.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=strsignal    CMakeFiles/cmTryCompileExec3700523606.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3700523606 -rdynamic 
+make[1]: Opuszczenie katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sprintf exists passed with the following output:
+Change Dir: /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1934726027/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1934726027.dir/build.make CMakeFiles/cmTryCompileExec1934726027.dir/build
+make[1]: Wejście do katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1934726027.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=sprintf   -o CMakeFiles/cmTryCompileExec1934726027.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘sprintf’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec1934726027
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1934726027.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=sprintf    CMakeFiles/cmTryCompileExec1934726027.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1934726027 -rdynamic 
+make[1]: Opuszczenie katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strcmp exists passed with the following output:
+Change Dir: /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1427799986/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1427799986.dir/build.make CMakeFiles/cmTryCompileExec1427799986.dir/build
+make[1]: Wejście do katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1427799986.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=strcmp   -o CMakeFiles/cmTryCompileExec1427799986.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strcmp’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec1427799986
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1427799986.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=strcmp    CMakeFiles/cmTryCompileExec1427799986.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1427799986 -rdynamic 
+make[1]: Opuszczenie katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+
+
+Determining if the function vsnprintf exists passed with the following output:
+Change Dir: /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3722333285/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3722333285.dir/build.make CMakeFiles/cmTryCompileExec3722333285.dir/build
+make[1]: Wejście do katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3722333285.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=vsnprintf   -o CMakeFiles/cmTryCompileExec3722333285.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘vsnprintf’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec3722333285
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3722333285.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=vsnprintf    CMakeFiles/cmTryCompileExec3722333285.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3722333285 -rdynamic 
+make[1]: Opuszczenie katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+
+
+Determining if the function clock_gettime exists passed with the following output:
+Change Dir: /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec296883572/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec296883572.dir/build.make CMakeFiles/cmTryCompileExec296883572.dir/build
+make[1]: Wejście do katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec296883572.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTryCompileExec296883572.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec296883572
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec296883572.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=clock_gettime    CMakeFiles/cmTryCompileExec296883572.dir/CheckFunctionExists.c.o  -o cmTryCompileExec296883572 -rdynamic 
+make[1]: Opuszczenie katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_GCC_THREAD_LOCAL_STORAGE succeded with the following output:
+Change Dir: /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3719357152/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3719357152.dir/build.make CMakeFiles/cmTryCompileExec3719357152.dir/build
+make[1]: Wejście do katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3719357152.dir/src.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DHAVE_GCC_THREAD_LOCAL_STORAGE   -o CMakeFiles/cmTryCompileExec3719357152.dir/src.c.o   -c /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec3719357152
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3719357152.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DHAVE_GCC_THREAD_LOCAL_STORAGE    CMakeFiles/cmTryCompileExec3719357152.dir/src.c.o  -o cmTryCompileExec3719357152 -rdynamic -lrt 
+make[1]: Opuszczenie katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+__thread int tls;
+
+int main(void) {
+    return 0;
+}
+Performing C SOURCE FILE Test HAVE_CLOCK_GETTIME_REALTIME succeded with the following output:
+Change Dir: /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec468059708/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec468059708.dir/build.make CMakeFiles/cmTryCompileExec468059708.dir/build
+make[1]: Wejście do katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec468059708.dir/src.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DHAVE_CLOCK_GETTIME_REALTIME   -o CMakeFiles/cmTryCompileExec468059708.dir/src.c.o   -c /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec468059708
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec468059708.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DHAVE_CLOCK_GETTIME_REALTIME    CMakeFiles/cmTryCompileExec468059708.dir/src.c.o  -o cmTryCompileExec468059708 -rdynamic -lrt 
+make[1]: Opuszczenie katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <time.h>
+
+int main(void) {
+    struct timespec ts;
+
+    clock_gettime(CLOCK_REALTIME, &ts);
+
+    return 0;
+}
+Determining size of unsigned short passed with the following output:
+Change Dir: /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3521455652/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3521455652.dir/build.make CMakeFiles/cmTryCompileExec3521455652.dir/build
+make[1]: Wejście do katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3521455652.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTryCompileExec3521455652.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTryCompileExec3521455652
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3521455652.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTryCompileExec3521455652.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTryCompileExec3521455652 -rdynamic -lrt 
+make[1]: Opuszczenie katalogu `/home/majki/Dokumenty/FinalVersion/spellcheck-mj348711/Tests/CMakeFiles/CMakeTmp'
+
+
